@@ -6,11 +6,11 @@ import moment from 'moment'
 import esLocale from '@fullcalendar/core/locales/es'
 
 const Calendar = () => {
-  const names = ['Nico F.', 'Paco', 'Quique', 'Ale', 'Nico C.', 'Jessy']
+  const names = ['Nico F.', 'Paco', 'Quique', 'Ale', 'Nico C.', 'Jessy', 'Caye']
   const events = []
 
   const startDate = moment('2023-03-3', 'YYYY-MM-DD').startOf('day')
-  const endDate = moment(startDate).add(8, 'months')
+  const endDate = moment(startDate).add(12, 'months')
 
   const currentDate = startDate.clone()
   let currentIndex = 0 // Índice del nombre actual en la lista
