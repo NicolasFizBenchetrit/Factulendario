@@ -6,10 +6,10 @@ import moment from 'moment'
 import esLocale from '@fullcalendar/core/locales/es'
 
 const Calendar = () => {
-  const names = ['Nico', 'Paco', 'Quique', 'Ale']
+  const names = ['Nico F.', 'Paco', 'Quique', 'Ale', 'Nico C.', 'Jessy']
   const events = []
 
-  const startDate = moment('2023-03-24', 'YYYY-MM-DD').startOf('day')
+  const startDate = moment('2023-03-3', 'YYYY-MM-DD').startOf('day')
   const endDate = moment(startDate).add(8, 'months')
 
   const currentDate = startDate.clone()
