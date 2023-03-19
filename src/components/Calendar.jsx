@@ -31,14 +31,13 @@ const Calendar = () => {
         borderColor: '#B8B8B8'
       }
     }
-    if (currentDate.isSame(new Date(), 'day')) {
+    if (currentDate.isSame(moment(), 'week')) {
       event = {
         ...event,
         backgroundColor: '#32de84',
         borderColor: '#32de84'
       }
     }
-
     events.push(event)
     // Avanza al siguiente viernes y al siguiente nombre en la lista
     currentDate.add(7, 'days')
