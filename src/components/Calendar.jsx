@@ -6,7 +6,7 @@ import moment from 'moment'
 import esLocale from '@fullcalendar/core/locales/es'
 
 const Calendar = () => {
-  const names = ['Nico F.', 'Paco', 'Quique', 'Ale', 'Nico C.', 'Jessy', 'Caye']
+  const names = ['Nico F.', 'Paco', 'Quique', 'Ale', 'Nico C.', 'Jessy', 'Caye', 'Alhassane']
   const events = []
 
   const startDate = moment('2023-03-3', 'YYYY-MM-DD').startOf('day')
