@@ -1,6 +1,6 @@
 # Factulendario 🥐
 
-This is a custom calendar made to know who has to bring sweets to the office
+This is a custom calendar made to know who has to bring sweets to the office. To do it I used the library **FullCalendar**
 
 ## Stack 💻
 - Vite ⚡
