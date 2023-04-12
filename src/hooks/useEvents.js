@@ -3,7 +3,7 @@ import names from '../helpers/names'
 
 function useEvents () {
   const events = []
-  const startDate = moment('2023-03-10', 'YYYY-MM-DD').startOf('day')
+  const startDate = moment('2023-03-03', 'YYYY-MM-DD').startOf('day')
   const endDate = moment(startDate).add(12, 'months')
 
   const currentDate = startDate.clone()
